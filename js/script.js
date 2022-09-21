@@ -2,7 +2,7 @@
 const nyear = new Date();
 document.getElementById(
   "copyyear"
-).textContent = ` ${nyear.getFullYear()} | Melinda Slaughter | Sheridan, Wyoming`;
+).textContent = ` ${nyear.getFullYear()} .:|:. Melinda Slaughter .:|:. Sheridan, Wyoming`;
 
 
 const time = new Date(document.lastModified);

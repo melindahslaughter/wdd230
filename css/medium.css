@@ -1,0 +1,40 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+  display: grid;
+  grid-template-columns: 15% 85%;
+ 
+  border-radius: 16px 16px 16px 16px;
+  box-shadow: 20px 20px 20px 20px #f1e2d1;
+}
+  .tphoto {
+    grid-column: 1;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  h2 {
+    margin-left: 20px;
+    font-size: 45px;
+  }
+  ul {
+  font-size: 30px;
+}
+footer {
+
+  border-radius: 16px 16px 16px 16px;
+  box-shadow: 20px 20px 20px 20px #f1e2d1;
+  text-align: center;
+}
+#csymbol {
+  font-size: 30px;
+  padding-top: 0.7em;
+}
+#copyright {
+  font-size: 25px;
+}
+}

@@ -1,0 +1,45 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&family=Ubuntu+Mono:ital@1&display=swap"); */
+
+header {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  background-color: darksalmon;
+}
+.tphoto {
+  max-width: 100%;
+  margin-left:4px;
+  margin-top: 3px;
+}
+h1 {
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif, Arial;
+  font-size: 30px;
+  text-align: center;
+  color: #fffbeb;
+}
+h2 {
+  text-align: left;
+  font-family: "open sans", cursive;
+  font-size: 25px;
+  margin-left: 4px;
+}
+ul {
+  font-size: 17px;
+}
+footer {
+  background-color: salmon;
+  font-family: "open sans", cursive;
+  text-align: center;
+}
+#csymbol {
+  font-size: 15px;
+  color: #fffbeb;
+  padding-top: 0.7em;
+}
+#copyright {
+  font-size: 15px;
+  color: darkblue;
+}
