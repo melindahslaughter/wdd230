@@ -16,6 +16,10 @@ header {
 .medianav {
   display: flex;
 }
+.media {
+  justify-content: right;
+ 
+}
 
 h1 h2 {
   font-family: "Libre Baskerville", serif;
@@ -44,9 +48,7 @@ h2 {
   border-radius: 20px 20px 20px 20px;
 }
 
-.media {
-  justify-content: right;
-}
+
 
 .date {
   background-color: #00244c;
