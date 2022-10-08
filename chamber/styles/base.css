@@ -35,7 +35,6 @@ h1 {
 h2 {
   font-size: 20px;
   margin: 0;
-
 }
 
 .logotxt {
@@ -152,15 +151,14 @@ main {
   font-family: "Libre Baskerville", serif;
 }
 .ffooter p {
-  margin: 3PX;
-  
+  margin: 3px;
 }
 footer {
   background-color: #00244c;
   font-family: "Libre Baskerville", serif;
   color: white;
   font-size: 17px;
-  text-align: center; 
+  text-align: center;
   margin: 0;
 }
 .flogo {
@@ -170,18 +168,17 @@ footer {
   border-radius: 20px 20px 20px 20px;
 }
 
-
- .sfooter {
+.sfooter {
   display: block;
   border-top: 1px solid;
   border-color: white;
   padding-bottom: 20px;
-  
+
   font-size: 10px;
-} 
+}
 .mfooter {
   padding-top: 1.7rem;
-  margin:0;
+  margin: 0;
 }
 .map {
   text-decoration: none;
