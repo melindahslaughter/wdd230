@@ -17,8 +17,8 @@
     grid-gap: 1rem;
 
   }
-  .event {
-    grid-column: 1/4;
+  .events {
+    grid-column: 1/2;
     grid-row: 1/2;
   }
   .hero {
@@ -40,7 +40,23 @@
   }
   .news {
     grid-column: 2/3 ;
-    grid-row:3/4;
+    grid-row: 3/4;
   }
+  footer {
+display: grid;
+grid-template-columns: 1fr 1fr; 
+ 
+}
+
+.sfooter {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  grid-column: span 2;
+
+}
+.map {
+  text-decoration: none;
+  color: white;
+}
 }
 

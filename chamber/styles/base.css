@@ -1,10 +1,11 @@
+/* Header Styles */
 header {
   background-color: #96bcb6;
 }
 
 .topcomp {
   display: flex;
-  flex-flow: inline;
+  justify-content: space-between;
 }
 
 .logotxt {
@@ -15,10 +16,11 @@ header {
 
 .medianav {
   display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 .media {
   justify-content: right;
- 
 }
 
 h1 h2 {
@@ -33,6 +35,7 @@ h1 {
 h2 {
   font-size: 20px;
   margin: 0;
+
 }
 
 .logotxt {
@@ -48,8 +51,6 @@ h2 {
   border-radius: 20px 20px 20px 20px;
 }
 
-
-
 .date {
   background-color: #00244c;
   font-size: 23px;
@@ -57,7 +58,7 @@ h2 {
   padding: 15px 15px;
   text-align: center;
 }
-
+/* navigation styles*/
 nav button {
   margin: 0.2rem 2vw;
   background: transparent;
@@ -116,7 +117,7 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(2) {
   display: block;
 }
-
+/* media styles */
 .fa {
   padding: 7px;
   font-size: 30px;
@@ -140,40 +141,50 @@ nav ul.open {
   background: #125688;
   color: white;
 }
-
+/* main styles */
 main {
-  display:grid;
-  grid-gap: 1em;
+  display: grid;
   column-gap: 1em;
   row-gap: 1em;
   width: 90%;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 2em auto;
-  font-family: "Manrope", sans-serif;
+  font-family: "Libre Baskerville", serif;
 }
-
-.container>div {
-  border-radius: 5px;
-  margin-bottom: 1em;
-  padding: 200px;
-  background-color: rgb(207, 232, 220);
-  border: 2px solid rgb(79, 185, 227);
+.ffooter p {
+  margin: 3PX;
+  
 }
-
-/* main {
-   display: grid;
-  grid-template-columns: 1fr;
-} */
 footer {
   background-color: #00244c;
   font-family: "Libre Baskerville", serif;
   color: white;
-  font-size: 15px;
-  text-align: center;
+  font-size: 17px;
+  text-align: center; 
+  margin: 0;
+}
+.flogo {
+  margin: 10px;
+  border-style: double;
+  border-color: black;
+  border-radius: 20px 20px 20px 20px;
 }
 
-.sfooter {
+
+ .sfooter {
+  display: block;
   border-top: 1px solid;
-  border-color: black;
-  margin-top: 10px;
+  border-color: white;
+  padding-bottom: 20px;
+  
+  font-size: 10px;
+} 
+.mfooter {
+  padding-top: 1.7rem;
+  margin:0;
+}
+.map {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
 }

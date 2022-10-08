@@ -1,12 +1,6 @@
 @media only screen and (min-width: 36rem) {
 
-/* nav button {display: none;}  
-nav ul#primaryNav {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 2vw;
-    
-} */
+
 nav ul li a {
    border: none;
 }
@@ -16,6 +10,12 @@ main{
     grid-template-columns: 70% 30%;
     grid-gap: 1rem;
      
+}
+.mfooter {
+    padding-bottom: 5px;
+}
+.sfooter {
+    padding: 15px;
 }
 .hero  {
    grid-column: 1/3;
