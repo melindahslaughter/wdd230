@@ -1,0 +1,177 @@
+header {
+  background-color: #96bcb6;
+}
+
+.topcomp {
+  display: flex;
+  flex-flow: inline;
+}
+
+.logotxt {
+  display: flex;
+  justify-content: end;
+  margin: 5px;
+}
+
+.medianav {
+  display: flex;
+}
+
+h1 h2 {
+  font-family: "Libre Baskerville", serif;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.logotxt {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.logo {
+  margin: 5px;
+  border-style: double;
+  border-color: black;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.media {
+  justify-content: right;
+}
+
+.date {
+  background-color: #00244c;
+  font-size: 23px;
+  color: #eee;
+  padding: 15px 15px;
+  text-align: center;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
+
+nav {
+  background-color: #96bcb6;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+.fa {
+  padding: 7px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 3px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+main {
+  display:grid;
+  grid-gap: 1em;
+  column-gap: 1em;
+  row-gap: 1em;
+  width: 90%;
+  max-width: 900px;
+  margin: 2em auto;
+  font-family: "Manrope", sans-serif;
+}
+
+.container>div {
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 200px;
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+}
+
+/* main {
+   display: grid;
+  grid-template-columns: 1fr;
+} */
+footer {
+  background-color: #00244c;
+  font-family: "Libre Baskerville", serif;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+.sfooter {
+  border-top: 1px solid;
+  border-color: black;
+  margin-top: 10px;
+}
