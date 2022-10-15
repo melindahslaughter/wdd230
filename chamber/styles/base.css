@@ -95,6 +95,7 @@ section {
 }
 
 .spotbottom {
+  text-align: center;
   border-top: solid 1px white;
   margin-left: 10px;
   margin-right: 10px;
@@ -104,12 +105,7 @@ section {
   font-style: italic;
 
 }
-/* .tridentimg {
-  height: 85px;
-}
-.dasha {
-  height: 85px;
-} */
+
 .spotimg {
   height: 85px;
   width: auto;
@@ -217,7 +213,7 @@ h2 {
   border-style: double;
   border-color: black;
   border-radius: 20px 20px 20px 20px;
-}
+  }
 
 .date {
   background-color: #00244c;
@@ -319,7 +315,7 @@ main {
   column-gap: 1em;
   row-gap: 1em;
   width: 100%;
-  max-width: 1000px;
+  /* max-width: 1000px; */
   margin: 0.5em auto;
   font-family: "Libre Baskerville", serif;
 }
