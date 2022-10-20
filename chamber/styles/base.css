@@ -12,19 +12,14 @@ header {
   background-color: #96bcb6;
 }
 
-.heroimg {
-  width: 800px;
-  height: auto;
-}
-
 .container {
   position: relative;
   font-family: "Libre Baskerville", serif;
 }
-.container img {
-  height: 450px;
-  width: auto;
-}
+ .container img {
+  height: 100%;
+  width: 100%;
+} 
 .text-block {
   display: none;
   text-align: center;
@@ -41,19 +36,14 @@ header {
   margin-right: 15px;
 }
 
-h1 h2 {
-  font-family: "Libre Baskerville", serif;
-}
-
-h1 {
-  font-size: 45px;
-  margin: 0;
-}
-.toptxt {
+.topt {
+  display:flex;
+  justify-content: center;
+  align-content: center;
   position: absolute;
   top: 10px;
-  right: 50%;
-  font-size: 45px;
+  right: 30%;
+  font-size: 35px;
   font-family: "Libre Baskerville", serif;
 }
 .banp {
@@ -61,18 +51,6 @@ h1 {
   margin: 5px;
 }
 
-.bannertxt {
-  position: absolute;
-  top: 25px;
-  right: 50px;
-  background: radial-gradient(#eee, #96bcb6);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-  box-shadow: 0 0 30px #333;
-  opacity: 0.5;
-  margin: 1rem;
-  font-family: "Libre Baskerville", serif;  
-}
 .day {
   text-align: center;
 }
@@ -88,13 +66,13 @@ section {
   box-shadow: 0 0 30px #00244c; 
   margin: .5rem
 }
-.spottxt {
+.spottxt,.temp {
   text-align: center;
   color:white;
   margin: 0;
 }
 
-.spotbottom {
+.spotbottom, .chill{
   text-align: center;
   border-top: solid 1px white;
   margin-left: 10px;
@@ -103,7 +81,6 @@ section {
   padding: 1rem;
   color: white;
   font-style: italic;
-
 }
 
 .spotimg {
@@ -112,6 +89,14 @@ section {
   padding-left: 45px;
   
 }
+.weatherimg {
+  padding-left: 15px;
+  padding-bottom: 30px;
+}
+.temp {
+  margin-bottom: 5px;
+}
+
 .eventp {
   line-height: 1.5;
   font-size: 14px;
@@ -176,7 +161,6 @@ h3 {
 .topcomp {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
 }
 
 .logotxt {
@@ -184,7 +168,9 @@ h3 {
   justify-content: end;
   margin: 5px;
 }
-
+.logoletters {
+  margin-top: 14px;
+}
 .medianav {
   display: flex;
   align-items: center;
@@ -199,20 +185,23 @@ h1 h2 {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   margin: 0;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 15px;
   margin: 0;
 }
 
 .logo {
-  margin: 5px;
+  margin: 7px;
+  margin-bottom: 10px;
   border-style: double;
   border-color: black;
   border-radius: 20px 20px 20px 20px;
+  height: 75;
+  width: auto;
   }
 
 .date {
@@ -328,8 +317,12 @@ footer {
   text-align: center;
   margin: 0;
 }
+.ftext {
+  margin-bottom:10px;
+}
 .flogo {
   margin: 10px;
+  margin-bottom: 0;
   border-style: double;
   border-color: black;
   border-radius: 20px 20px 20px 20px;
@@ -340,11 +333,16 @@ footer {
   border-top: 1px solid;
   border-color: white;
   font-size: 10px;
-  
+}
+.stfooter {
+  margin: 7px;
 }
 .mfooter {
-  padding-top: 1.7rem;
-  margin: 0;
+  padding-top: .75rem;
+  margin-bottom: 7px;
+}
+.mfooter p {
+  margin: 1px;
 }
 .map {
   text-decoration: none;

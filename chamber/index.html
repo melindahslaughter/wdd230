@@ -2,26 +2,26 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- <meta name="viewport" content="width=device-width, maximum-scale=1.0" /> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="Melinda Slaughter" />
-  <meta name="description" content="Chamber page styled week 5 for WDD 230, BYU-Idaho" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Melinda Slaughter">
+  <meta name="description" content="Chamber page styled week 5 for WDD 230, BYU-Idaho">
   <title>Coyote Creek Chamber of Commerce</title>
-  <link rel="stylesheet" href="styles/normalize.css" />
-  <link rel="stylesheet" href="styles/base.css" />
-  <link rel="stylesheet" href="styles/medium.css" />
-  <link rel="stylesheet" href="styles/large.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <header>
+   <header>
 
     <div class="topcomp">
       <div class="logotxt">
-        <img class="logo" src="./images/coyote-logo.png" alt="Coyote Creek Logo" width="70" height="75" />
+        <img class="logo" src="./images/coyote-logo-top2.webp" alt="Coyote Creek Logo" width="70" height="75" >
         <div class="logoletters">
           <h1>Coyote Creek</h1>
           <h2>Chamber of Commerce</h2>
@@ -30,8 +30,8 @@
 
       <div class="medianav">
         <div class="media">
-          <a class="fa fa-facebook" href="https://www.facebook.com/" alt="facebook"></a>
-          <a class="fa fa-instagram" href="https://www.instagram.com/" alt="instagram"></a>
+          <a class="fa fa-facebook" href="https://www.facebook.com/"></a>
+          <a class="fa fa-instagram" href="https://www.instagram.com/"></a>
         </div>
         <nav>
           <button id="hamburgerBtn">
@@ -52,10 +52,15 @@
     <div class="date"></div>
   </header>
 
-  <main>
+ <main>
 
     <div class="container">
-      <img class="mainimg" src="./images/headerimg2.jpg" alt="Coyote Creek image">
+      <picture>
+        <source srcset="./images/wdd230-org-medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+        <source srcset="./images/wdd230-org-large.jpg" media="(min-width: 800px)">
+        <img class="mainimg" src="./images/wdd230-org-small.jpg" alt="Alternative hero image">
+      </picture>
+
       <div class="text-block">
         <h2 class="bantxt">Come to the meet and greet</h2>
         <p class="banp">Wednesday 7 p.m.</p>
@@ -84,7 +89,7 @@
       <div class="spotlighttxt">
         <div class="theater">
           <h3 class="spot">Coyote Theater</h3>
-          <img class="spotimg" src="images/popcorn.png" alt="Popcorn image" />
+          <img class="spotimg" src="images/popcorn.png" alt="Popcorn image">
           <p class="spottxt">An Iconic Family Experience</p>
           <p class="spotbottom">307-867-5309</p>
         </div>
@@ -92,14 +97,14 @@
 
       <div class="spotlighttxt">
         <h3 class="spot1">Trident Tech</h3>
-        <img class="spotimg" src="images/electronics.png" alt="image of computer" />
+        <img class="spotimg" src="images/electronics.png" alt="image of computer">
         <p class="spottxt">User Friendly Interface</p>
         <p class="spotbottom">307-867-5309</p>
       </div>
 
       <div class="spotlighttxt">
         <h3 class="dasha">DaSha's Diner</h3>
-        <img class="spotimg" src="images/salad.png" alt="image of salad" />
+        <img class="spotimg" src="images/salad.png" alt="image of salad">
         <p class="spottxt">Home Cooked Goodness</p>
         <p class="spotbottom">307-867-5309</p>
       </div>
@@ -123,17 +128,28 @@
       </div>
     </section>
     <section class="weather">
-      <h3 class="weatherp">Weather</h3>
-
+      <div class="weatherdiv">
+        <h3 class="weatherp">Weather</h3>
+        <img class="spotimg" src="images/weather.png" alt="Weather Image">
+      </div>
+      <div class="temp">
+        <span>Temperature: </span><span id="tempInput">42 &deg;F  </span>
+        <span> Wind Speed: </span><span id="windInput">15 mph</span>
+      </div>
+      <div class="chill">
+        <span>Wind Chill: </span><span id="output"> </span><span>&deg; F</span>
+      </div>
     </section>
   </main>
 
   <footer>
     <div class="ffooter">
-      <img class="flogo" src="./images/coyote-logo.png" alt="Coyote Creek Logo" width="50" height="50" />
+      <img class="flogo" src="./images/coyote-logo-bottom.webp" alt="Coyote Creek Logo">
+      <div class="ftext">
       <p>Coyote Creek Chamber of Commerce</p>
       <p>100 East, Main Street</p>
       <p>Coyote Creek, Wyoming 82801</p>
+      </div>
     </div>
 
     <div class="mfooter">
@@ -144,13 +160,16 @@
     </div>
 
     <div class="sfooter">
+      <div class="stfooter">
       <span>&copy; Coyote Creek | </span>
       <span>Melinda Slaughter | </span>
       <span>WDD230 Project | </span>
       <span id="lastModified"></span>
+      </div>
     </div>
   </footer>
   <script src="scripts/script.js"></script>
+  <script src="./scripts/windchill.js"></script>
 </body>
 
 </html>

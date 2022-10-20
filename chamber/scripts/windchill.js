@@ -1,18 +1,26 @@
-function doInputOutput(tempF, speed) {
-  var tempF = parseFloat(document.getElementById("tempInput").value);
-  var speed = parseFloat(document.getElementById("windInput").value);
-  var result = windChill(tempF, speed);
+const input1 = document.querySelector("#tempInput");
+const input2 = document.querySelector("#windInput");
 
-  document.getElementById("output").innerHTML =
-    "The windchill factor is " + result.toFixed(2);
+// const result = windChill(tempF, speed);
+
+let t = parseFloat(input1.textContent);
+let s = parseFloat(input2.textContent);
+
+
+
+// function windChill(t, s) {
+if (t > 50 || s < 3) {
+  document.getElementById("output").innerHTML = "N/A"
 }
-function windChill(t, s) {
-  // var t;
-  // var s;
-  result =
+else {
+  windchill =
     35.74 +
     0.6215 * t -
     35.75 * Math.pow(s, 0.16) +
     0.4275 * t * Math.pow(s, 0.16);
-  return result;
 }
+document.getElementById("output").innerHTML = windchill.toFixed(2);
+
+
+// }
+

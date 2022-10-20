@@ -20,8 +20,9 @@
   }
 
   .mfooter {
-    padding-bottom: 5px;
-  }
+  padding-top: 1rem;
+  margin: 10px;
+}
   .sfooter {
     padding: 15px;
   }
