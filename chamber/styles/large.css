@@ -84,4 +84,29 @@
     text-decoration: none;
     color: white;
   }
+  .discover{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .secdiscover{
+    display: flex;
+    justify-content: space-between;
+  }
+  .disctxt{
+  /* background-color: none; */
+  background: none;
+  border: none;
+  box-shadow:none;
+}
+   picture.discimg {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+picture:hover.discimg {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+} 
+
 }

@@ -2,6 +2,7 @@
   /* width: 100%; */
   display: grid;
   grid-template-columns: 1fr;
+  font-family: "Libre Baskerville", serif;
 } 
 
 /* Header Styles */
@@ -14,7 +15,7 @@ header {
 
 .container {
   position: relative;
-  font-family: "Libre Baskerville", serif;
+  
 }
  .container img {
   height: 100%;
@@ -44,7 +45,7 @@ header {
   top: 10px;
   right: 30%;
   font-size: 35px;
-  font-family: "Libre Baskerville", serif;
+ 
 }
 .banp {
   font-size: 20px;
@@ -54,13 +55,24 @@ header {
 .day {
   text-align: center;
 }
-section {
+section, .secdiscover, .disctxt {
   border: 1px solid #00244c;
   background-color: #125688;
   box-shadow: 0 0 30px #00244c;
 }
+.discimg {
+  height: 100%;
+  margin:0;
+  padding: 0.5rem;
 
-.spotlighttxt {
+}
+.disctxt{
+  margin-left: 25px; 
+  padding: 0.5rem;
+  margin-right: 25px; 
+}
+
+.spotlighttxt, .secdiscover {
   display:block; 
   border: 1px solid #00244c;
   box-shadow: 0 0 30px #00244c; 
@@ -116,10 +128,13 @@ section {
   margin: 1rem;
   text-align: center;
 }
-.newsp {
+.newsp, .disctxt, .timestamp {
   line-height: 1.5;
   color: white;
   letter-spacing: .5px;
+}
+.timestamp {
+  margin-left: 35px;
 }
 .joindiv {
   text-align: center;
@@ -145,7 +160,7 @@ section {
 }
 
 h3 {
-  font-family: "Libre Baskerville", serif;
+ 
   font-size: 24px;
   color: #e2b709;
   text-align: center;
@@ -180,10 +195,6 @@ h3 {
   justify-content: right;
 }
 
-h1 h2 {
-  font-family: "Libre Baskerville", serif;
-}
-
 h1 {
   font-size: 30px;
   margin: 0;
@@ -193,14 +204,13 @@ h2 {
   font-size: 15px;
   margin: 0;
 }
-
 .logo {
   margin: 7px;
   margin-bottom: 10px;
   border-style: double;
   border-color: black;
   border-radius: 20px 20px 20px 20px;
-  height: 75;
+  height: 75px;
   width: auto;
   }
 
@@ -304,9 +314,9 @@ main {
   column-gap: 1em;
   row-gap: 1em;
   width: 100%;
-  /* max-width: 1000px; */
+
   margin: 0.5em auto;
-  font-family: "Libre Baskerville", serif;
+
 }
 
 footer {

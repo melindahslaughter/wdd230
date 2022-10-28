@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, maximum-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Melinda Slaughter">
+    <meta name="description" content="Chamber page styled week 5 for WDD 230, BYU-Idaho">
+    <title>Coyote Creek Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="topcomp">
+            <div class="logotxt">
+                <img class="logo" src="./images/coyote-logo-top2.webp" alt="Coyote Creek Logo" width="70" height="75">
+                <div class="logoletters">
+                    <h1>Coyote Creek</h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+            </div>
+
+            <div class="medianav">
+                <div class="media">
+                    <a class="fa fa-facebook" href="https://www.facebook.com/"></a>
+                    <a class="fa fa-instagram" href="https://www.instagram.com/"></a>
+                </div>
+                <nav>
+                    <button id="hamburgerBtn">
+                        <span>&#9776;</span><span>X</span>
+                    </button>
+
+                    <ul id="primaryNav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+        <div class="date"></div>
+    </header>
+
+    <main class="discover">
+        <div class="secdiscover">
+            <p class="disctxt">Coyote Creek Wyoming located <br>
+                at the foot of the Bighorn Mountains<br>
+                population: 31,646 founded: 1888<br>
+                Area: 2527 square miles
+            </p>
+
+            <picture class="discimg">
+                <img src="https://via.placeholder.com/350x240" data-src="images/sheridan.jpg" alt="Coyote Creek">
+            </picture>
+        </div>
+
+        <div class="secdiscover">
+            <p class="disctxt" id="disctxt2">
+                Coyote Creek Pathway Trail system<br>
+                more than 6 trails covering 25 miles<br>
+                ofvwalking and biking trails along<br>
+                Coyote Creek and Big Goose Creek.<br>
+                You're bound to find the perfect trail for you!
+            </p>
+            <picture class="discimg">
+                <img src="https://via.placeholder.com/350x240" data-src="images/trail.jpg" alt="trail">
+            </picture>
+        </div>
+
+        <div class="secdiscover">
+            <p class="disctxt">Demographics of the<br>
+                The Bighorn Mountains are located in northern Wyoming<br>
+                and Southern Montana in the United States approximately<br>
+                200 miles northward on the great planes. Elevation 13,175'<br>
+                Highest point: Cloud Peak<br>
+                Passes: Powder River Pass, Granite Pass<br>
+            </p>
+            <picture class="discimg">
+                <img src="https://via.placeholder.com/350x240" data-src="images/bighorns2.jpg" alt="Bighorn Mountains">
+            </picture>
+        </div>
+
+        <div class="secdiscover">
+            <p class="disctxt">Coyote Creek Golf course <br>
+                is a premier golf course. It is a Masters<br>
+                training ground eighteen holes surrounded<br>
+                by beautiful scenery.
+            </p>
+            <picture class="discimg">
+                <img src="https://via.placeholder.com/350x240" data-src="images/golf.jpg" alt="Golf Course">
+            </picture>
+        </div>
+
+        <div class="secdiscover">
+            <p class="disctxt">Alpine and Nordic skiing<br>
+                are available for the avid sportsman.<br>
+                Snowmobile trails for the winter, <br>
+                horse trails and wilderness areas in the summer.
+            </p>
+            <picture class="discimg">
+                <img src="https://via.placeholder.com/350x240" data-src="images/bighornsr.jpg" alt="Bighorn Mountains">
+            </picture>
+        </div>
+
+        <div class="secdiscover">
+            <div class="timestamp">
+                <p>Days between visits: <span class="different"></span> days</p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="ffooter">
+            <img class="flogo" src="./images/coyote-logo-bottom.webp" alt="Coyote Creek Logo">
+            <div class="ftext">
+                <p>Coyote Creek Chamber of Commerce</p>
+                <p>100 East, Main Street</p>
+                <p>Coyote Creek, Wyoming 82801</p>
+            </div>
+        </div>
+
+        <div class="mfooter">
+            <p>coyotecreek@gmail.com</p>
+            <p>307-867-5309</p>
+            <a class="map" href="https://goo.gl/maps/fuxcH6NMie7X9j6b9"><span style="font-size: 20px">&#128205;
+                    location
+                    map:</span></a>
+        </div>
+
+        <div class="sfooter">
+            <div class="stfooter">
+                <span>&copy; Coyote Creek | </span>
+                <span>Melinda Slaughter | </span>
+                <span>WDD230 Project | </span>
+                <span id="lastModified"></span>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="./scripts/loadpic.js"></script>
+    <script src="scripts/timestamp.js"></script>
+</body>
+
+</html>
