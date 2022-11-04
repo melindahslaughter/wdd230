@@ -22,7 +22,7 @@ document.querySelector(".dateTime").value = fulldate; //add date to hidden page.
 
 
 function toggleMenu() {
-	document.getElementById('primaryNav').classList.toggle("open");
+	document.getElementById('primaryNav').classList.toggle("open");  //toggles hamburger button according to page size.
 	document.getElementById("hamburgerBtn").classList.toggle("open");
 
 }
@@ -31,21 +31,13 @@ const x = document.getElementById('hamburgerBtn')
 x.onclick = toggleMenu;
 
 let dayOfWeek = new Date();
-if (dayOfWeek.getDay() == 2 || dayOfWeek.getDay() == 3) {
+if (dayOfWeek.getDay() == 2 || dayOfWeek.getDay() == 3) {   //shows banner on tuesday and wednesday
 
 	document.querySelector('.text-block').style.display = "block"
 
 }
 
-// const input = document.querySelector(".title")
-// const regEx = /^[a-zA-z- ] {7}$/;
-// if (input.ariaValueMax.match(regEx)) {
-// 	return true;
-// }
-// else {
-// 	alert("Please enter a valid input.");
-// 	return false;
-// }
+
 
 
 
