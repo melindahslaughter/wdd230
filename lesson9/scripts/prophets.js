@@ -21,14 +21,15 @@ function displayProphets(prophet) {
     //change the textContent property of the h2 element to contain prophet's full name
     // h2.textContent = prophet.name + ' ' + prophet.lastname;
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
-
+    bDate.textContent = `Date of Birth: ${prophet.birthdate}`;
+    bPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
     portrait.setAttribute('src', prophet.imageurl);
     portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastName} - ${prophet.order}th Latter-Day Prophet`);
     portrait.setAttribute('loading', 'lazy');
 
     card.appendChild(h2);
     card.appendChild(portrait);
-    card.appendChild(bDay);
+    card.appendChild(bDate);
     card.appendChild(bPlace);
     card.appendChild(portrait);
 

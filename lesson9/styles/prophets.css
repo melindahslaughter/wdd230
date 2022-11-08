@@ -13,13 +13,14 @@ footer {
 
 h1 {
   color: #000;
-  border-bottom: 1px solid #eee;
-  text-shadow: 0 0 15px #999;
-  width: 60%;
+  border-bottom: 1px solid #2f443b;
+  text-shadow: 0 0 15px #d9f8eb;
+  width: 100%;
+  text-align: center;
 }
 
 h2 {
-  color: blue;
+  color: #39395f;
   margin: 0;
 }
 
@@ -40,7 +41,7 @@ main {
   margin-left: 2rem;
 }
 
-.grid {
+.cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
@@ -48,8 +49,8 @@ main {
 section {
   margin: 0.25rem;
   padding: 0.35rem;
-  background-color: #eee;
-  border: 1px solid #bbb;
+  background-color: #e8f5c0;
+  border: 1px solid #2f443b;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,14 +64,15 @@ img {
 	max-width: 325px;
   box-shadow: 0 0 30px #777;
   height: 200px;
-  border: 1px solid #333;
+  border: 1px solid #333#2f443b;
 }
 
 
 
 footer {
-  border-top: 1px solid #555;
+  border-top: 1px solid #2f443b;
   padding: 20px;
+  text-align: center;
 }
 
 
