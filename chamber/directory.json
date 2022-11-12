@@ -1,0 +1,76 @@
+{
+  "companies": [
+    {
+      "name": "Big Horn Medical",
+      "address": "2049 Sugarland Drive",
+      "phone": "307-674-6471",
+      "website": "https://bighornmedical.com/",
+      "image": "images/medical.png",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Dragon Wall Buffet",
+      "address": "1842 Sugarland Drive #110",
+      "phone": "307-673-6888",
+      "website": "https://dragonwall.com/",
+      "image": "images/dragon.png",
+      "membership": "Silver"
+    },
+    {
+      "name": "Jackalope Rescue Center",
+      "address": "335 Lindon Ave",
+      "phone": "307-867-5309",
+      "website": "https://jackaloperescue.com/",
+      "image": "images/jackalope.png",
+      "membership": "Non-Profit"
+    },
+    {
+       "name": "Bakers Greenhouse",
+       "address": "1175 Coffeen Avenue",
+       "phone":"307-867-5309",
+       "website": "https://greenhouse.com/",
+       "image": "images/greenhouse.png",
+       "membership": "Gold"
+    },
+     {
+       "name": "Dasha's Cafe",
+       "address": "2015 Main Street",
+       "phone":"307-867-5309",
+       "website": "https://dashasdiner.com/",
+       "image": "images/salad.png",
+       "membership": "Gold"
+    },
+     {
+       "name": "Trident Tech",
+       "address": "305 Linden Ave",
+       "phone":"307-867-5309",
+       "website": "https://tridenttech.com/",
+       "image": "images/electronics.png",
+       "membership": "Gold"
+    },
+     {
+       "name": "Coyote Theater",
+       "address": "807 Brundage",
+       "phone":"307-867-5309",
+       "website": "https://coyotetheater.com/",
+       "image": "images/popcorn.png",
+       "membership": "Gold"
+    },
+     {
+       "name": "Binx Detective Agency",
+       "address": "27 Detrich lane Suite #3",
+       "phone":"307-867-5309",
+       "website": "https://binxdetective.com/",
+       "image": "images/binx.png",
+       "membership": "Gold"
+    },
+     {
+       "name": "Rex Kwan Do Martial Arts",
+       "address": "35 Taylor Street",
+       "phone":"307-867-5309",
+       "website": "https://RexKwanDo.com/",
+       "image": "images/martialarts.png",
+       "membership": "Silver"
+    }
+  ]
+}

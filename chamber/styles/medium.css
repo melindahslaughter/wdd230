@@ -16,13 +16,13 @@
     width: 100%;
   }
   .container {
-    grid-column:1/3 ;
+    grid-column: 1/3;
   }
 
   .mfooter {
-  padding-top: 1rem;
-  margin: 10px;
-}
+    padding-top: 1rem;
+    margin: 10px;
+  }
   .sfooter {
     padding: 15px;
   }
@@ -50,35 +50,73 @@
     grid-column: 2/3;
     grid-row: 5/6;
   }
-   .discover{
+  .discover {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .secdiscover{
+  .secdiscover {
     display: flex;
     justify-content: space-between;
   }
-   picture.discimg {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  picture.discimg {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  picture:hover.discimg {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  .disctxt {
+    /* background-color: none; */
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
+  .spotlightj {
+    display: grid;
+    /* flex-direction: column; */
+    margin-top: 37px;
+    margin-bottom: 37px;
+  }
+  .list img {
+    display: block;
+  }
+  .directory section {
+    display: flex;
+    flex-direction: column;
+    margin: 0.25rem;
+  }
+  .grid .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+   .grid img {
+    display: block;
+  } 
+  .list img {
+    display:none;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+  }
+  .list section {
+    flex-direction: row;
+    justify-content: left;
+  }
+ .directory .list p {
+  font-size: 12px;
+ }
+ .directory .grid p {
+  margin: -4px;
+  font-family:"Libre Baskerville", serif;
+  font-size: 13px;
 }
-picture:hover.discimg {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
+ .joinmain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 } 
-  .disctxt{
-  /* background-color: none; */
-  background: none;
-  border: none;
-  box-shadow:none;
-}
-.spotlightj {
-  display:grid;
-  /* flex-direction: column; */
-  margin-top: 37px;
-  margin-bottom: 37px;
- 
-}
 }
