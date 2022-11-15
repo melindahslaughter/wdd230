@@ -1,8 +1,11 @@
 
 main {
+    display:block;
+    margin: auto;
     background-color:aquamarine;
     text-align: center;
     max-width: 50%;
     padding: 5rem;
     font-family: 'Fragment Mono', monospace;
+   
 }
