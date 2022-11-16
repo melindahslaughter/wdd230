@@ -131,14 +131,19 @@
     <section class="weather">
       <div class="weatherdiv">
         <h3 class="weatherp">Weather</h3>
-        <img class="spotimg" src="images/weather.png" alt="Weather Image">
+        <!-- <img class="spotimg" src="images/weather.png" alt="Weather Image"> -->
+        <figure>
+          <img class="weatherimg" src="" alt="" id="weather-icon">
+          <figcaption></figcaption>
+        </figure>
       </div>
       <div class="temp">
-        <span>Temperature: </span><span id="tempInput">42 &deg;F  </span>
+        <!-- <span>Temperature: </span><span id="tempInput">42 &deg;F  </span> -->
+        <p>Temperature: <span id="tempInput"></span>&deg;F</p>
         <span> Wind Speed: </span><span id="windInput">15 mph</span>
       </div>
       <div class="chill">
-        <span>Wind Chill: </span><span id="output"> </span><span>&deg; F</span>
+        <span>Wind Chill: </span><span id="output"> </span><span> &deg;F</span>
       </div>
     </section>
   </main>
@@ -158,6 +163,8 @@
       <p>307-867-5309</p>
       <a class="map" href="https://goo.gl/maps/fuxcH6NMie7X9j6b9"><span style="font-size: 20px">&#128205; location
           map:</span></a>
+          <br>
+      <span>Weather data provided by: <a class="weath" href="https://openweathermap.org/">OpenWeatherMap.org</span></a>
     </div>
 
     <div class="sfooter">
@@ -170,7 +177,8 @@
     </div>
   </footer>
   <script src="scripts/script.js"></script>
-  <script src="./scripts/windchill.js"></script>
+  <script src="./scripts/windchill.js"></script> 
+  <script src="./scripts/chamweather.js"></script>
 </body>
 
 </html>

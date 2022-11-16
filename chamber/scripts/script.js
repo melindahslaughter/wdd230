@@ -36,7 +36,7 @@ if (dayOfWeek.getDay() == 2 || dayOfWeek.getDay() == 3) {   //shows banner on tu
 	document.querySelector('.text-block').style.display = "block"
 
 }
- document.querySelector(".dateTime").value = fulldate; //add date to hidden page.
+//  document.querySelector(".dateTime").value = fulldate; //add date to hidden page.
 
 
 

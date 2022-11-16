@@ -65,6 +65,11 @@ header {
   background-color: #125688;
   box-shadow: 0 0 30px #00244c;
 }
+.weather {
+  display: block;
+
+}
+
 .discimg {
   height: 100%;
   margin: 0;
@@ -84,13 +89,16 @@ header {
 }
 .spottxt,
 .temp,
-.spottxtj {
+.spottxtj, figcaption {
   text-align: center;
   color: white;
   margin: 0;
 }
 .spottxtj {
   margin: 7px;
+}
+.temp {
+  padding-bottom: 1rem;
 }
 
 .spotbottom,
@@ -104,20 +112,18 @@ header {
   color: white;
   font-style: italic;
 }
-
 .spotimg {
   height: 85px;
   width: auto;
   padding-left: 45px;
 }
 .weatherimg {
-  padding-left: 15px;
-  padding-bottom: 30px;
-}
+ padding-left: 15px; 
+ height: 90px;
+} 
 .temp {
   margin-bottom: 5px;
 }
-
 .eventp {
   line-height: 1.5;
   font-size: 14px;
@@ -368,10 +374,13 @@ footer {
 .mfooter p {
   margin: 1px;
 }
-.map {
-  text-decoration: none;
+.map, .weath {
+  
   color: white;
   font-size: 15px;
+}
+.map {
+text-decoration: none;
 }
 
 form {
