@@ -35,6 +35,15 @@ function setWindChill(t, s) {
     }
 }
 
+function capital(str) {
+    const arr = str.split(" ");
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+    }
+    const str2 = arr.join(" ");
+    return str2;
+}
+
 function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
     currentWind.innerHTML = `<strong>${weatherData.wind.speed.toFixed(0)}</strong>`;
@@ -43,7 +52,7 @@ function displayResults(weatherData) {
 
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
-    captionDesc.textContent = desc;
+    captionDesc.textContent = capital(desc);
     windChill.textContent = setWindChill(weatherData.main.temp, weatherData.wind.speed);
 }
 
