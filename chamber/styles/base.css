@@ -80,7 +80,7 @@ header {
   padding: 0.5rem;
   margin-right: 25px;
   }
-
+  
 .spotlighttxt {         
   display: block;
   border: 1px solid #00244c;
@@ -115,10 +115,11 @@ header {
 .spotimg {
   height: 85px;
   width: auto;
-  padding-left: 45px;
-}
+  padding-left: 120px;
+} 
+
 .weatherimg {
- padding-left: 15px; 
+ padding-left: 85px; 
  height: 90px;
 } 
 .temp {

@@ -2,6 +2,7 @@ const currentTemp = document.querySelector("#tempInput");
 const currentWind = document.querySelector("#windInput");
 const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("figcaption");
+const windChill = document.querySelector("#output");
 const url = "https://api.openweathermap.org/data/2.5/weather?zip=82801&appid=364ee35cfabcb4fec9d4af380e8686be&units=imperial";
 
 async function apiFetch() {
@@ -19,6 +20,21 @@ async function apiFetch() {
     }
 }
 
+function setWindChill(t, s) {
+    if (t <= 50 && s >= 3) {
+        let windchill =
+            35.74 +
+            0.6215 * t -
+            35.75 * Math.pow(s, 0.16) +
+            0.4275 * t * Math.pow(s, 0.16);
+        return Math.round(windchill);
+    }
+    else {
+       
+        return "N/A";
+    }
+}
+
 function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
     currentWind.innerHTML = `<strong>${weatherData.wind.speed.toFixed(0)}</strong>`;
@@ -28,6 +44,7 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+    windChill.textContent = setWindChill(weatherData.main.temp, weatherData.wind.speed);
 }
 
 apiFetch();

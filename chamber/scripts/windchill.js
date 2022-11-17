@@ -1,6 +1,8 @@
 const input1 = document.querySelector("#tempInput");
 const input2 = document.querySelector("#windInput");
 
+// const t = parseFloat(getElementById("#tempInput").textContent);
+// const s = parseFloat(getElementById("#windInputInput").textContent);
 // const result = windChill(tempF, speed);
 
 let t = parseFloat(input1.textContent);
