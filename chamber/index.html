@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Melinda Slaughter">
-  <meta name="description" content="Chamber page styled week 5 for WDD 230, BYU-Idaho">
+  <meta name="description" content="Chamber Home page for WDD 230, BYU-Idaho">
   <title>Coyote Creek Chamber of Commerce</title>
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/base.css">
@@ -22,8 +22,8 @@
       <div class="logotxt">
         <img class="logo" src="./images/coyote-logo-top2.webp" alt="Coyote Creek Logo" width="70" height="75" >
         <div class="logoletters">
-          <h1>Coyote Creek</h1>
-          <h2>Chamber of Commerce</h2>
+          <h1 class="headerh1">Coyote Creek</h1>
+          <h2 class ="headerh2">Chamber of Commerce</h2>
         </div>
       </div>
 
@@ -38,11 +38,11 @@
           </button>
 
           <ul id="primaryNav">
-            <li><a class="current" href="#">Home</a></li>
+            <li><a class="current" href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
 
         </nav>
@@ -73,11 +73,11 @@
       <div class="newstxt">
         <h3 class="newsp1">News Release</h3>
         <p class="newsp">Coyote Creek has been awarded a grant for downtown development.
-          Mayor Tyler Benchmark indicated that Stacy Denmark, the Coyote Creek president 
+          Mayor Tyler Benchmark indicated that Stacy Denmark, the Coyote Creek president of
           the local Chamber of Commerce applied for the grant last May. "We are very excited
           for the improvements and opportunities this will bring to our community. We are so
           pleased that we were awarded these monies." Plans to extend the walking path along
-          Coyote Creek are already in the planning stages. A portion of the grant is also slated
+          Coyote Creek are already in the development stages. A portion of the grant is also slated
           for use in further improving the Davidson Water Park by adding children's water 
           features as well as making repairs to the deck and bottom of the pool. Residents
           can look for these improvements starting next summer. 
@@ -86,29 +86,12 @@
     </section>
 
     <section class="spotlight">
-      <div class="spotlighttxt">
-          <h3 class="spot">Coyote Theater</h3>
-          <img class="spotimg" src="images/popcorn.png" alt="Popcorn image">
-          <p class="spottxt">An Iconic Family Experience</p>
-          <p class="spotbottom">307-867-5309</p>
+      <div class="cardsection">
+      <div class="cards"></div>
       </div>
-      
-      <div class="spotlighttxt">
-        <h3 class="spot1">Trident Tech</h3>
-        <img class="spotimg" src="images/electronics.png" alt="image of computer">
-        <p class="spottxt">User Friendly Interface</p>
-        <p class="spotbottom">307-867-5309</p>
-      </div>
+   </section>
 
-      <div class="spotlighttxt">
-        <h3 class="dasha">DaSha's Diner</h3>
-        <img class="spotimg" src="images/salad.png" alt="image of salad">
-        <p class="spottxt">Home Cooked Goodness</p>
-        <p class="spotbottom">307-867-5309</p>
-      </div>
-    </section>
-
-    <section class="join">
+   <section class="join">
       <div class="joindiv">
         <h3 class="joinp">Join</h3>
         <p class="jointxt"> Discover how to join the Chamber of Commerce and how it will benefit your organization</p>
@@ -125,11 +108,12 @@
         <p class="eventp2">more info...</p>
       </div>
     </section>
+
     <section class="weather">
       <div class="weatherdiv">
         <h3 class="weatherp">Weather</h3>
         <figure>
-          <img class="weatherimg" src=" " alt=" " id="weather-icon">
+          <img class="weatherimg" src="#" alt="#" id="weather-icon">
           <figcaption></figcaption>
         </figure>
       </div>
@@ -173,6 +157,7 @@
   </footer>
   <script src="./scripts/chamweather.js"></script>
   <script src="scripts/script.js"></script>
+  <script src="scripts/membership.js"></script>
 </body>
 
 </html>

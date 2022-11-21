@@ -1,5 +1,7 @@
 
 const cards = document.querySelector('.cards');
+const list = [];
+
 
 fetch('directory.json')  //feed the required arguments, the URL 
     .then(function (response) {

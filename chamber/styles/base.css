@@ -1,5 +1,4 @@
 body {
-  /* width: 100%; */
   display: grid;
   grid-template-columns: 1fr;
   font-family: "Libre Baskerville", serif;
@@ -8,8 +7,6 @@ body {
 /* Header Styles */
 header {
   width: 100%;
-  margin: 0.5em auto;  
-  font-family: "Libre Baskerville", serif;
   background-color: #96bcb6;
 }
 
@@ -24,22 +21,29 @@ header {
   display: none;
   text-align: center;
   position: absolute;
-  color: black;
   bottom: 25px;
   left: 25px;
   background: radial-gradient(#eee, #6f8b87);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  padding: 1.5rem;
-  box-shadow: 0 0 30px #333;
   opacity: 0.8;
   margin-right: 15px;
 }
+.text-block, .joinp {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      box-shadow: 0 0 30px #333;
+      color: black;
+      border-radius: 15px;
+}
+.joinp {
+  background: radial-gradient(#eee, #96bcb6);  
+  opacity: 1;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 30px;
+}
 
 .topt {
-  display: flex;
-  justify-content: center;
-  align-content: center;
   position: absolute;
   top: 10px;
   right: 30%;
@@ -60,7 +64,7 @@ header {
 .weather,
 .spotlightj,
 .secdiscover,
-.disctxt {
+.disctxt, .spotlighttxt {
   border: 1px solid #00244c;
   background-color: #125688;
   box-shadow: 0 0 30px #00244c;
@@ -76,24 +80,26 @@ header {
   padding: 0.5rem;
 }
 .disctxt {
-  margin-left: 25px;
+  margin: 50px 25px 35px 25px;
   padding: 0.5rem;
-  margin-right: 25px;
   }
-  
-.spotlighttxt {         
+  section {
   display: block;
   border: 1px solid #00244c;
   box-shadow: 0 0 30px #00244c;
-  margin: .5rem;
-}
-.spottxt,
+  justify-content: center;
+  }
+  .chamber .cards {
+    margin: .59rem;
+  }
+ h4, h5, .spottxt, h3,
 .temp,
 .spottxtj, figcaption {
   text-align: center;
   color: white;
   margin: 0;
 }
+
 .spottxtj {
   margin: 7px;
 }
@@ -102,7 +108,7 @@ header {
 }
 
 .spotbottom,
-.chill {
+.chill, h6 {
   text-align: center;
   border-top: solid 1px white;
   margin-left: 10px;
@@ -112,18 +118,13 @@ header {
   color: white;
   font-style: italic;
 }
-.spotimg {
-  height: 85px;
-  width: auto;
-  padding-left: 120px;
-} 
-
-.weatherimg {
- padding-left: 85px; 
- height: 90px;
-} 
-.temp {
-  margin-bottom: 5px;
+h6 {
+  padding-bottom: 0px;
+  margin-bottom: 0px; 
+  margin-top: 0px;
+}
+.temp p {
+  margin-bottom: 0;
 }
 .eventp {
   line-height: 1.5;
@@ -133,9 +134,7 @@ header {
 .eventp2 {
   color: #e2b709;
 }
-.news {
-  background-color: #125688;
-}
+
 .spotlight {
   display: grid;
   grid-template-columns: 1fr;
@@ -151,6 +150,7 @@ header {
   color: white;
   letter-spacing: .5px;
 }
+
 .timestamp {
   margin-left: 35px;
 }
@@ -161,28 +161,26 @@ header {
   color: white;
   line-height: 1.3;
 }
-.joinp {
-  background: radial-gradient(#eee, #96bcb6);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-  box-shadow: 0 0 30px #333;
-  opacity: 1;
-  margin-top: 3rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  font-family: "Libre Baskerville", serif;
-  font-size: 30px;
-  color: black;
-  border-radius: 15px;
-}
 
-h3 {
-  font-size: 24px;
+.cards h2, .weatherp, .newsp1,
+.joinh3,.spot, .events1  {
+  font-size: 20px;
   color: #e2b709;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
-  /* margin: 4px; */
+  margin: 15px 5px 0px 5px;
 }
+
+ .chamber section .cards img {
+  height: 85px;
+  width: auto;
+  padding-left: 40%; 
+}  
+.weatherimg {
+ padding-left: 39%; 
+ height: 90px;
+ margin-top: -5px;
+} 
 .eventstxt {
   text-align: center;
   font-size: 14px;
@@ -211,15 +209,15 @@ h3 {
   justify-content: right;
 }
 
-h1 {
-  font-size: 30px;
+.headerh1 {
+  font-size: 45px;
   margin: 0;
 }
 
-h2 {
-  font-size: 15px;
+.headerh2 {
+  font-size: 20px;
   margin: 0;
-}
+} 
 .logo {
   margin: 7px;
   margin-bottom: 10px;
@@ -229,7 +227,7 @@ h2 {
   height: 75px;
   width: auto;
 }
-
+/* date banner under header */
 .date {
   background-color: #00244c;
   font-size: 23px;
@@ -279,20 +277,14 @@ nav ul.open {
   display: block;
 }
 
-#hamburgerBtn span:nth-child(1) {
-  display: block;
-}
-
-#hamburgerBtn span:nth-child(2) {
-  display: none;
-}
-
-#hamburgerBtn.open span:nth-child(1) {
-  display: none;
-}
-
+#hamburgerBtn span:nth-child(1),
 #hamburgerBtn.open span:nth-child(2) {
   display: block;
+}
+
+#hamburgerBtn.open span:nth-child(1),
+#hamburgerBtn span:nth-child(2) {
+  display: none;
 }
 /* media styles */
 .fa {
@@ -454,8 +446,7 @@ form input.submitBtn {
   border: 1px solid #00244c;
   box-shadow: 0 0 5px #00244c;
   align-items: center;
-  
- }
+}
 
 .directory img {
   width: auto;
@@ -473,7 +464,6 @@ form input.submitBtn {
 .directory h2 {
   color: #010114;
   font-size: 18px;
-  /* margin-top: 10px; */
 }
 .directory h3 {
   color:#000;
@@ -528,7 +518,19 @@ grid-column: 2/3;
 
  .wiremain {
    max-width: 90%; 
-} 
+}
+.contact {
+  display: flex;
+  flex-direction: column; 
+  margin: 1rem;
+}
+.contactmap {
+  text-align: center;
+}
+iframe {
+  width: 100%;
+  height: 400px;
+}
 
 
 

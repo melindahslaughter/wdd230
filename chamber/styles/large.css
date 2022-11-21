@@ -16,7 +16,10 @@
     grid-template-columns: 20% 60% 20%;
     grid-gap: 1rem;
     max-width: 1000px;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
   }
+
 
 
   h1 {
@@ -26,6 +29,12 @@
   h2 {
     font-size: 20px;
   }
+  h3 {
+  font-size: 15px;
+}
+h4 {
+  margin-bottom: -15px;
+}
 
   .container {
     position: relative;
@@ -53,9 +62,15 @@
     grid-column: 3/4;
     grid-row: 1/4;
   }
-    .spotimg {
-   padding-left: 45px;
+  .chamber section .cards img {
+   padding-left: 31%;
 } 
+ /* .chamber section .cards img {
+  height: 85px;
+  width: auto;
+  padding-left: 40%; 
+}   */
+
   .weather {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -140,5 +155,6 @@ form fieldset {
 .directory .list p {
   font-size: 14px;
 }
+
 
 }

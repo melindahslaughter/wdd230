@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- <meta name="viewport" content="width=device-width, maximum-scale=1.0" /> -->
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Melinda Slaughter">
-  <meta name="description" content="Chamber page styled week 5 for WDD 230, BYU-Idaho">
-  <title>Coyote Creek Chamber of Commerce</title>
+  <meta name="description" content="Join page for Chamber site WDD 230, BYU-Idaho">
+  <title>Join Coyote Creek Chamber</title>
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/medium.css">
@@ -42,7 +42,7 @@
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a class="current" href="join.html">Join</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -75,7 +75,7 @@
         <label class="level"><input type="radio" name="membership" value="gold"> Gold
           Membership</label>
       </fieldset>
-      <input class="dayTime" type="hidden" name="dayTime">
+      <input id="lastModified" type="hidden" name="dayTime">
       <input type="submit" value="Join" class="submitBtn">
     </form>
     <section class="spotlightj">
@@ -94,7 +94,7 @@
       </div>
 
       <div class="spotlighttxt">
-        <h3>
+        <h3 class="spot">
           Bronze<br>
           Membership
         </h3>
@@ -110,7 +110,7 @@
       </div>
 
       <div class="spotlighttxt">
-        <h3>
+        <h3 class="spot">
           Silver <br>
           Membership
         </h3>
@@ -125,7 +125,7 @@
         </p>
       </div>
       <div class="spotlighttxt">
-        <h3>Gold <br>Membership</h3>
+        <h3 class="spot">Gold <br>Membership</h3>
         <p class="spottxtj">Price: $510 <br>
           Membership includes<br>
           Full page add in Chamber Booklet<br>
@@ -164,7 +164,6 @@
     </div>
   </footer>
   <script src="scripts/script.js"></script>
-  <!-- <script src="./scripts/windchill.js"></script> -->
 </body>
 
 </html>
