@@ -355,10 +355,10 @@ footer {
   display: block;
   border-top: 1px solid;
   border-color: white;
-  font-size: 10px;
+  font-size: 12px;
 }
 .stfooter {
-  margin: 7px;
+  margin: 10px;
 }
 .mfooter {
   padding-top: 0.75rem;
@@ -387,7 +387,7 @@ form fieldset {
   padding: 0.5rem 2%;
 }
 form legend {
-  color: #5c90c2;
+  color: #00244c;
   margin: 0 1rem;
   padding: 0 0.5rem;
 }
