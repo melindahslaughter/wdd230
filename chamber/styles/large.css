@@ -5,11 +5,12 @@
   nav ul#primaryNav {
     display: flex;
     justify-content: flex-end;
-    margin-left: 2vw;
+    padding-inline-start: 0px;
   }
 
   nav ul li a {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem; 
+   
   }
   .chamber {
     display: grid;
@@ -19,8 +20,6 @@
     padding-bottom: 1rem;
     padding-top: .5rem;
   }
-
-
 
   h1 {
     font-size: 45px;
@@ -38,7 +37,7 @@ h4 {
 
   .container {
     position: relative;
-    font-family: "Libre Baskerville", serif;
+    /* font-family: "Libre Baskerville", serif; */
   }
   .container img {
    height: 100%;
