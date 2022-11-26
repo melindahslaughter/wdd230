@@ -1,5 +1,5 @@
 document.querySelector(
-	".lastModified"
+	"#lastModified"
 ).textContent = `Last Modification: ${document.lastModified}`;
 
 // select the elements to manipulate (output to)
