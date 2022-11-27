@@ -136,4 +136,7 @@ form input.submitBtn {
   margin: 0 0 2rem 6%;
 
 }
+.contactmap {
+  display: block;
+}
 }
