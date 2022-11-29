@@ -409,6 +409,10 @@ form input.submitBtn {
   text-align: center;
   color: #00244c;
 }
+.directory p {
+  text-align: center;
+  margin: 0;
+}
 
 .directory section {
   margin: 0.25rem;
@@ -445,6 +449,7 @@ form input.submitBtn {
 .directory h4 {
   margin: 2px;
   color:#000;
+  /* text-align: center; */
 }
 .directory .grid p {
   margin: -1px;
