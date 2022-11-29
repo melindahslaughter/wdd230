@@ -435,6 +435,7 @@ form input.submitBtn {
 .directory h2 {
   color: #010114;
   font-size: 18px;
+  text-shadow: .5px .5px .5px #000000;
 } 
 .directory h3 {
   color:#000;
@@ -443,10 +444,10 @@ form input.submitBtn {
 }
 .directory h4 {
   margin: 2px;
+  color:#000;
 }
 .directory .grid p {
   margin: -1px;
-  font-family:"Libre Baskerville", serif;
   font-size: 13px;
 }
 .grid .cards {
@@ -512,7 +513,7 @@ iframe {
   margin-bottom: 5px;
 }
 .contactmap {
-  display: none;
+  display:none;
 }
 
 
