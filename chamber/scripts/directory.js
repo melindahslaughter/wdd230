@@ -16,7 +16,7 @@ function displayCompanies(company) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
-    let name= document.createElement('h3');
+    let name= document.createElement('h4');
     let address = document.createElement('h4');
     let phone = document.createElement('p');
     let website = document.createElement('p');
