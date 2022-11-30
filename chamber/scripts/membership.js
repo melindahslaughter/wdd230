@@ -42,7 +42,7 @@ function displayCompany(company) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
-    let name = document.createElement('h3');
+    let name = document.createElement('h2');
     let address = document.createElement('h3');
     let phone = document.createElement('h4');
     let website = document.createElement('h5');
