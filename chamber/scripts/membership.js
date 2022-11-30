@@ -43,9 +43,9 @@ function displayCompany(company) {
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
     let name = document.createElement('h3');
-    let address = document.createElement('h4');
-    let phone = document.createElement('h5');
-    let website = document.createElement('h6');
+    let address = document.createElement('h3');
+    let phone = document.createElement('h4');
+    let website = document.createElement('h5');
     let membership = document.createElement('p');
 
     portrait.setAttribute('src', company.image);
