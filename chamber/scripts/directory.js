@@ -19,7 +19,7 @@ function displayCompanies(company) {
     let name= document.createElement('h3');
     let address = document.createElement('h4');
     let phone = document.createElement('h5');
-    let website = document.createElement('p');
+    let website = document.createElement('h6');
     let membership = document.createElement('p');
 
     portrait.setAttribute('src', company.image);
