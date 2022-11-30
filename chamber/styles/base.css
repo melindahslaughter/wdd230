@@ -29,17 +29,14 @@ header {
 }
 .text-block, .joinp {
       border: 1px solid rgba(0, 0, 0, 0.1);
-      padding: 1.5rem;
+      padding: .5rem;
       box-shadow: 0 0 30px #333;
       color: black;
       border-radius: 15px;
 }
 .joinp {
-  /* background-color:#6f8b87;  */
   background: radial-gradient(#eee, #6f8b87);
   opacity: 0.8; 
-  /* radial-gradient(rgb(252, 251, 251), #f3faf9);  */
-  /* opacity: 0.8; */
   margin-top: 3rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -95,12 +92,15 @@ header {
   .chamber .cards {
     margin: .59rem;
   }
- h4, h5, .spottxt, h3,
+ h4,.spottxt, h3,
 .temp,
 .spottxtj, figcaption {
   text-align: center;
   color: white;
-  margin: 0;
+
+}
+h5 {
+ margin-top: -5px;
 }
 
 .spottxtj {
@@ -121,13 +121,12 @@ header {
   color: white;
   font-style: italic;
 }
-h6 {
-  padding-bottom: 0px;
-  margin-bottom: 0px; 
-  margin-top: 0px;
-}
+.chamber section .cards h3 {
+  margin-bottom: -7px;
+  margin-top: 10px;
+} 
 .temp p {
-  margin-bottom: 0;
+  margin-bottom: 3px;
 }
 .eventp {
   line-height: 1.5;
@@ -161,13 +160,17 @@ h6 {
   line-height: 1.3;
 }
 
-.cards h2, .weatherp, .newsp1,
+.chamber .cards h2, .weatherp, .newsp1,
 .joinh3,.spot, .events1  {
   font-size: 20px;
   color: #e2b709;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
   margin: 15px 5px 0px 5px;
+}
+.directory.cards h2 {
+   text-align: center;
+   font-size: 15px;
 }
 
  .chamber section .cards img {
@@ -176,7 +179,7 @@ h6 {
   padding-left: 40%; 
 }  
 .weatherimg {
- padding-left: 39%; 
+ padding-left: 34%; 
  height: 90px;
  margin-top: -5px;
 } 
@@ -347,9 +350,10 @@ footer {
 .mfooter p, .cfooter p {
   margin: 1px;
 }
-.map, .weath {
+.map, .weath, .chamber h5 {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
+  text-align: center;
 }
 .map {
 text-decoration: none;
@@ -451,12 +455,16 @@ form input.submitBtn {
 } 
 .directory h3 {
   color:#000;
-  margin: 0;
+  margin: 1px;
   font-size: 14px;
 }
 .directory h4 {
   margin: 2px;
   color:#000;
+  font-size: 12px;
+}
+.directory h2, .directory h5 {
+  text-align: center;
 }
 .directory .grid p {
   margin: -1px;
@@ -469,6 +477,7 @@ form input.submitBtn {
   align-items: center;
   text-align: center;
 }
+
 .list img {
   display: none;
 }
