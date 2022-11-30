@@ -42,9 +42,9 @@ function displayCompany(company) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
-    let name = document.createElement('h4');
+    let name = document.createElement('h3');
     let address = document.createElement('h4');
-    let phone = document.createElement('h4');
+    let phone = document.createElement('h5');
     let website = document.createElement('h6');
     let membership = document.createElement('p');
 
@@ -53,7 +53,6 @@ function displayCompany(company) {
     portrait.setAttribute('loading', 'lazy');
     h2.textContent = `${company.name}`;
     address.textContent = `${company.address}`;
-    // membership.textContent = `Membership: ${company.membership}`;
     website.textContent = `${company.website}`;
     phone.textContent = `${company.phone}`;
 
