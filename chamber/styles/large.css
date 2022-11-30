@@ -55,13 +55,7 @@ h4 {
   .chamber section .cards img {
    padding-left: 31%;
 } 
- /* .chamber section .cards img {
-  height: 85px;
-  width: auto;
-  padding-left: 40%; 
-}   */
-
-  .weather {
+ .weather {
     grid-column: 1/2;
     grid-row: 2/3;
   }
@@ -77,10 +71,11 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+ 
   .mfooter {
     padding-top: 2.5rem;
     margin-bottom: 7px;
-  }
+  } 
 
   .sfooter {
     padding-top: 2rem;
@@ -126,12 +121,7 @@ picture:hover.discimg {
 form fieldset {
     padding: .5rem .5rem 25% .5rem; 
 }
-/* .spotlightj {
-  display:grid;
-  margin-top: 37px;
-  margin-bottom: 37px;
- 
-} */
+
 .thankmain{
   display: flex;
   justify-content: center;

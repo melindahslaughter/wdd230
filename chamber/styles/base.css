@@ -333,10 +333,15 @@ footer {
   margin: 10px;
 }
 .mfooter {
-  padding-top: 0.75rem;
+  padding-top: 0.50rem;
   margin-bottom: 7px;
+  
 }
-.mfooter p {
+.cfooter {
+  padding-top: 1.2rem;
+  padding-bottom: 15px; 
+}
+.mfooter p, .cfooter p {
   margin: 1px;
 }
 .map, .weath {
@@ -449,7 +454,6 @@ form input.submitBtn {
 .directory h4 {
   margin: 2px;
   color:#000;
-  /* text-align: center; */
 }
 .directory .grid p {
   margin: -1px;
