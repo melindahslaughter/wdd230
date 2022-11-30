@@ -35,7 +35,7 @@ header {
       border-radius: 15px;
 }
 .joinp {
-  background: radial-gradient(#eee, #96bcb6);  
+  background: radial-gradient(rgb(252, 251, 251), #f3faf9);  
   /* opacity: 0.8; */
   margin-top: 3rem;
   margin-left: 1rem;
